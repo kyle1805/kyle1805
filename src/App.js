@@ -28,6 +28,7 @@ import SidebarMenu from "./components/SidebarMenu";
 import useClickOutSide from "./hook/useClickOutSide";
 import Form from "./components/form/Form";
 import Form2 from "./components/form/Form2";
+import MovieSearchApp from "./components/Movie/MovieSearchApp";
 // import Blog from "./components/custom/Blog";
 
 const theme = {
@@ -84,7 +85,8 @@ function App() {
 
         {/* <Blog /> */}
         {/* <HackerNewsWithHook /> */}
-        <Form2 />
+        {/* <Form2 /> */}
+        <MovieSearchApp />
       </ThemeProvider>
       {/* <button
         onClick={() => setShow(true)}
