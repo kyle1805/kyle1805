@@ -29,6 +29,10 @@ import useClickOutSide from "./hook/useClickOutSide";
 import Form from "./components/form/Form";
 import Form2 from "./components/form/Form2";
 import MovieSearchApp from "./components/Movie/MovieSearchApp";
+import SignUpForm from "./components/form/SignUpForm";
+import SignUpFormV2 from "./components/form/SignUpFormV2";
+import SignUpFormFinal from "./components/form/SignUpFormFinal";
+import SignUpFormHook from "./components/form/SignUpFormHook";
 // import Blog from "./components/custom/Blog";
 
 const theme = {
@@ -86,7 +90,9 @@ function App() {
         {/* <Blog /> */}
         {/* <HackerNewsWithHook /> */}
         {/* <Form2 /> */}
-        <MovieSearchApp />
+        {/* <MovieSearchApp /> */}
+        {/* <SignUpFormFinal /> */}
+        <SignUpFormHook />
       </ThemeProvider>
       {/* <button
         onClick={() => setShow(true)}
