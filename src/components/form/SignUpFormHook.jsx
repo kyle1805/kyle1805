@@ -22,10 +22,12 @@ const SignUpFormHook = () => {
   });
 
   const onSubmit = async (values) => {
-    const reponse = await axios.get(
-      "https://hn.algolia.com/api/v1/search?query=react"
-    );
-    return reponse.data;
+    if (isValid) {
+    }
+    // const reponse = await axios.get(
+    //   "https://hn.algolia.com/api/v1/search?query=react"
+    // );
+    // return reponse.data;
   };
   return (
     <form
